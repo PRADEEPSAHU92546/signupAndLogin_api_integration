@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+  <title>Signup/Login</title>
+</head>
+<body>
+
+  <div id="signupFormContainer">
+    <h1>Signup</h1>
+    <form id="signupForm">
+      <label for="email">Email:</label>
+      <input type="email" id="signupEmail" name="email" required><br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="signupPassword" name="password" required><br><br>
+      <button type="submit">Signup</button>
+    </form>
+  </div>
+
+  <div id="loginFormContainer" style="display: none;"> 
+    <h1>Login</h1>
+    <form id="loginForm">
+      <label for="email">Email:</label>
+      <input type="email" id="loginEmail" name="email" required><br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="loginPassword" name="password" required><br><br>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <button id="toggleForm">Toggle Form</button>
+    <script src="signup.js"></script>
+</body>
+</html>
